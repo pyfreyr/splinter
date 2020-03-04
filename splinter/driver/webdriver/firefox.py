@@ -6,7 +6,8 @@
 import os
 import six
 
-from selenium.webdriver import DesiredCapabilities, Firefox
+from seleniumwire.webdriver import Firefox
+from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.firefox.firefox_profile import FirefoxProfile
 from splinter.driver.webdriver import (
     BaseWebDriver,
